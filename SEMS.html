@@ -1,0 +1,91 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Secondary Education Management System (SEMS)</title>
+<link rel="stylesheet" href="SEMS.CSS">
+<script src="SEMS.JS"></script>
+
+</head>
+
+<body>
+
+
+<nav>
+    <h2>SEMS</h2>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <ul id="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Modules</a></li>
+        <li><a href="#dashboard">Dashboard</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="hero" id="home">
+    <h1>Secondary Education Management System</h1>
+    <a href="#features" class="btn">Explore Features</a>
+</section>
+
+
+<section id="features">
+    <h2 style="text-align:center;">Core Modules</h2>
+    <div class="features">
+
+        <div class="card">
+            <h3>📚 Academic Management</h3>
+            <p>Class management, subject allocation, timetable generation, lesson planning, and curriculum uploads.</p>
+        </div>
+
+        <div class="card">
+            <h3>👩‍🎓 Student Management</h3>
+            <p>Student registration, attendance tracking, student profiles, promotion and graduation management.</p>
+        </div>
+
+        <div class="card">
+            <h3>📝 Examination & Results</h3>
+            <p>Exam scheduling, marks entry, GPA calculation, report card generation, and performance analytics.</p>
+        </div>
+
+        <div class="card">
+            <h3>💰 Finance Management</h3>
+            <p>Fee setup, invoice generation, payment tracking, scholarship management and financial reporting.</p>
+        </div>
+
+        <div class="card">
+            <h3>📢 Communication</h3>
+            <p>SMS/Email alerts, announcements, parent-teacher messaging and event notifications.</p>
+        </div>
+
+        <div class="card">
+            <h3>📖 Library System</h3>
+            <p>Book cataloging, borrow/return tracking, fine calculation and inventory reports.</p>
+        </div>
+
+    </div>
+</section>
+
+
+<section class="dashboard" id="dashboard">
+    <h2>Modern & User-Friendly Dashboard</h2>
+    <p>Role-based access for Administrators, Teachers, Students, Parents and Staff.</p>
+    <img src="https://via.placeholder.com/700x400.png?text=SEMS+Dashboard+Preview" alt="Dashboard Preview">
+</section>
+
+
+<section class="contact" id="contact">
+    <h2 style="text-align:center;">Contact Us</h2>
+    <form onsubmit="submitForm(event)">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Secondary Education Management System</p>
+</footer>
+</body>
+</html>
